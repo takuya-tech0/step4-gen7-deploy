@@ -19,7 +19,7 @@ export default function Login() {
   const handleLogin = async () => {
     try {
       // /login エンドポイントに POST リクエストを送信
-      const response = await fetch('tech0-gen-7-step3-studentwebapp-pos-test1-dcchfeb6eygth6bb.eastus-01.azurewebsites.net/login', {
+      const response = await fetch('http://127.0.0.1:5000/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

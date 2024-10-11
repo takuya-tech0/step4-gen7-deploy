@@ -38,7 +38,7 @@ def get_db_connection():
         user='tech0gen7student',            # ユーザー名@ホスト名
         password='F4XyhpicGw6P',                        # パスワード
         database='legotest',                   # データベース名
-        ssl_ca='/Users/takuya/Downloads/AzureMySQL_Connection/DigiCertGlobalRootCA.crt.pem'   # 証明書のパス
+        ssl_ca='/Users/takuya/Downloads/sublesson_0920-main 3/backend/DigiCertGlobalRootCA.crt.pem'   # 証明書のパス
     )
 
 # '/login'エンドポイントを定義し、POSTメソッドのみを許可します
